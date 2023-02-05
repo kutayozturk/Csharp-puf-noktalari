@@ -26,9 +26,16 @@ class TestClass {
    }
 }
 /*
-When the above code is compiled and executed, it produces the following result −
+TestClass isimli Class yapısı incelendiğinde
+   first_space.namespace_cl fc = new first_space.namespace_cl();
+   second_space.namespace_cl sc = new second_space.namespace_cl();
+   
+Kodları ile karşılaşmaktayız. Burada görüldüğü üzere, 
+   new first_space.namespace_cl();
+ifadesi ile first_space içerisinde bulunan namespace_c1 içerisinde bulunan class çağrılmışitır.
+Çağırma işlemi (.) operatörü ile sağlanmıştır.
 
-
+Yukarıdaki kod derlenip yürütüldüğünde, aşağıdaki sonucu verir −
 Inside first_space
 Inside second_space
 */
