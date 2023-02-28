@@ -43,4 +43,10 @@ namespace CLASS
 
 // Ekran Çıktısı:	0.....
 
+/*
+    Görüldüğü gibi referansı olmayan bir nesne oluşturk ve o nesneye ait yazdir() fonksiyonunu çağırıp, kullandık.
+    Bu yöntem neredeyse hiç kullanılmaz ve sorunlara yol açabilir. 
+    Bu örneği yapmaktaki amacımız, aslında kurallarla oynayabildiğimiz göstermektir. Ancak burada yapılan şey kesinlikle LEGAL'dir! :)
+*/
+
 
